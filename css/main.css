@@ -83,6 +83,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
   transition: var(--transition), opacity 0.75s ease;
   will-change: transform;
   transform-style: preserve-3d;
@@ -151,9 +152,13 @@ video.frame-media_left {
   bottom: 5vh;
   right: 5vw;
   cursor: pointer;
-  width: 24px;
+  width: 200px;
   transition: 0.25s ease;
+  -webkit-transition: 0.25s ease;
+  -moz-transition: 0.25s ease;
+  -ms-transition: 0.25s ease;
+  -o-transition: 0.25s ease;
 }
 .soundbutton.paused {
-  opacity: 0.25;
+  opacity: 0.6;
 }
